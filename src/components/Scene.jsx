@@ -8,7 +8,7 @@ const Scene = () => {
   const [rotationState, setRotationState] = useState([0, 0, 0]);
 
   const handleMouseMove = (e) => {
-    targetRotation.current.y = (e.clientX - window.innerWidth / 2) / 5000;
+    targetRotation.current.y = (e.clientX - window.innerWidth / 2) / 10000;
     targetRotation.current.x = (e.clientY - window.innerHeight / 2) / 5000;
 
     gsap.to(currentRotation.current, {
