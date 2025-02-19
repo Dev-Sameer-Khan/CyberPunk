@@ -161,7 +161,7 @@ const TextPressure = ({
         width: "50%",
         height: "100%",
         background: "transparent",
-        translate : "50% 55%"
+        translate: "50% 55%",
       }}
     >
       <style>{`
